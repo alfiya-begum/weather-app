@@ -4,7 +4,7 @@ from datetime import datetime, timezone
 
 app = Flask(__name__)
 
-API_KEY = "61f16317064f01f71d7fb348d8000ab1"  # Replace with your actual API key
+API_KEY = os.getenv("API_KEY")  # Replace with your actual API key
 is_metric = True  # Global flag for units
 
 
@@ -174,3 +174,4 @@ def toggle_units_route():
 
 if __name__ == "__main__":
     app.run(debug=True)
+
