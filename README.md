@@ -2,7 +2,7 @@
 
 This project is a **Flask-based web application** that fetches real-time weather data using the **OpenWeather API** and provides **smart recommendations** for food, clothing, fitness, travel, and holidays based on current weather conditions.
 
-🔗 Live Demo: [Weather App on Render](https://alfiya-weather-app.onrender.com)
+🔗 Live Demo: [Weather App](https://alfiya-weather-app.onrender.com)
 
 ---
 
@@ -10,11 +10,11 @@ This project is a **Flask-based web application** that fetches real-time weather
 
 Weather-Recommendation-App/
 
-│── static/                      # CSS & JS files  
-│── templates/                   # HTML templates (index.html, result.html, error.html, base.html)  
-│── app.py                       # Flask backend  
-│── requirements.txt             # Dependencies  
-│── README.md                    # Documentation  
+│── static/                     
+│── templates/                     
+│── app.py                        
+│── requirements.txt               
+│── README.md                    
 
 ---
 
@@ -36,7 +36,7 @@ pip install -r requirements.txt
 
 ## ▶️ How to Run
 
-git clone https://github.com/<your-username>/Weather-Recommendation-App.git  
+git clone https://github.com/alfiya-begum/Weather-Recommendation-App.git  
 cd Weather-Recommendation-App  
 python app.py  
 
