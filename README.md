@@ -1,4 +1,4 @@
-# 🌤️ Weather Recommendation App
+# 🌤️ Weather App
 
 This project is a **Flask-based web application** that fetches real-time weather data using the **OpenWeather API** and provides **smart recommendations** for food, clothing, fitness, travel, and holidays based on current weather conditions.
 
